@@ -1,0 +1,120 @@
+@media screen and (max-width: 768px) {
+	.container {
+		width: 480px;
+	}
+
+
+	.header__left {
+		width: 70%;
+	}
+
+
+	.header__right {
+		width: 30%;
+		padding-top: 20px;
+	}
+
+	.contacts {
+		background: url('../img/icons/phone-pic.png') center center no-repeat;
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+		font-size: 0px;
+		vertical-align: top;
+
+		&:hover {
+			background: url('../img/icons/phone_pic-red.png') center center no-repeat;
+		}
+
+	}
+
+	.nav__link-text {
+		margin-left: 5px;
+	}
+
+
+	.about__left,
+	.about__right {
+		width: 100%;
+		float: none;
+	}
+
+
+	.content-title {
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+
+
+	.about__download {
+		text-align: center;
+	}
+
+
+	.footer {
+		height: 95px;
+		margin-top: 95px;
+	}
+
+
+	.wrapper:after {
+		height: 95px;
+	}
+
+
+	.foother__left,
+	.foother__right {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	/* start career @media */
+	.career__left,
+	.career__right {
+		width: 100%;
+		float: none;
+	}
+
+
+	.career__left {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+
+
+	.career__pic {
+		display: inline-block;
+	}
+
+
+	.career__pic__element {
+		width: 220px;
+	}
+
+
+	.career__item {
+		padding: 0;
+	}
+
+
+	.career__block {
+		display: block;
+		width: 100%;
+	}
+
+
+	.career__block:after,
+	.career__block:before,
+	.career__year {
+		display: none;
+	}
+	/* start portfolio @media */
+	
+	.portfolio__item {
+		width: calc(100% / 2 - 20px);
+		max-width: 300px;
+	}
+}
+	

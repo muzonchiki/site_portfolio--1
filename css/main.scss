@@ -1,0 +1,21 @@
+// layout
+@import "layout/normalize";
+@import "layout/adjustment";
+@import "layout/fonts";
+@import "layout/font-awesome";
+
+// sections
+@import "sections/header";
+@import "sections/content";
+@import "sections/sidebar";
+@import "sections/about";
+@import "sections/footer";
+@import "sections/career";
+@import "sections/portfolio";
+@import "sections/velcome";
+
+// @media
+@import "media/desktop";
+@import "media/laptop";
+@import "media/tablets";
+@import "media/phones";

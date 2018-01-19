@@ -1,0 +1,110 @@
+@media screen and (max-width: 480px) {
+	.container {
+		width: 95%;
+	}
+
+	.header__left {
+		width: 80%;
+	}
+
+	.header__right {
+		width: 20%;
+	}
+
+.contacts:hover {
+	.contacts__dropdown {
+		right: 0;
+    	left: auto;
+    	transform: translateX(0%);
+		}
+	}
+
+	.contacts__dropdown-triangle {
+		border-top: 0px solid transparent;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid #dedede;
+		border-left: 10px solid transparent;
+		height: 0px;
+		width: 0px;
+		position: absolute;
+		bottom: 100%;
+		left: 90%;
+		margin-left: -10px;
+
+		&:before {
+			content: '';
+			display: block;
+			border-top: 0px solid transparent;
+			border-right: 10px solid transparent;
+			border-bottom: 10px solid #fff;
+			border-left: 10px solid transparent;
+			height: 0px;
+			width: 0px;
+			position: absolute;
+			left: -10px;
+			top: 1px;
+		} 
+	}
+
+	.user__name {
+		max-width: 150px;
+		font-size: 14px;
+		margin-left: 14px;
+	}
+	
+	.nav__list {
+		text-align: center;
+	}
+
+	.nav__item {
+		margin-right: 5px;
+	}
+
+
+	.nav__link {
+		font-size: 14px;
+	}
+
+
+	.nav__link-icon {
+		display: none;
+	}
+
+	.about__pic {
+		width: 140px;
+		height: 140px;
+	}
+
+	
+	.foother__left {
+		padding-top: 12px;
+	}
+
+
+	.foother__right {
+		padding-top: 5px;
+	}
+
+	/* start career @media */
+	.career__title {
+		font-size: 18px;
+	}
+
+
+	.career__occupation,
+	.career__time {
+		font-size: 16px;
+	}
+	/* start portfolio @media */
+	.portfolio__list {
+		margin-left: 0;
+		text-align: center;
+	}
+
+
+	.portfolio__item {
+		width: 100%;
+		margin-left: 0;
+		
+	}
+}

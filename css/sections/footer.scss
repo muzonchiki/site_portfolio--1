@@ -1,0 +1,60 @@
+.foother__left,
+.foother__right {
+	float: left;
+	width: 50%;
+}
+
+.foother__left {
+	padding-top: 18px;
+}
+
+.copyright {
+	font-size: 14px;
+	font-weight: 300;
+	color: #9c9c9c;
+}
+
+.foother__right {
+	text-align: right;
+}
+
+.socials__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 6px;
+}
+
+.socials__link {
+	width: 32px;
+	height: 32px;
+	display: block;
+	background: url('../img/icons/spritesheet.png') no-repeat center center;
+}
+
+.socials__link-fb {
+	background-position: -50px -50px;
+}
+
+.socials__link-fb:hover {
+	background-position: -181px -50px;
+}
+
+.socials__link-vk {
+	background-position: -574px -50px;
+}
+
+.socials__link-vk:hover {
+	background-position: -706px -50px;
+}
+
+.socials__link-tw {
+	background-position: -312px -50px;
+}
+
+.socials__link-tw:hover {
+	background-position: -443px -50px;
+}
+
+.foother__right {
+	padding-top: 10px;
+}
